@@ -1,0 +1,37 @@
+<html>
+
+<body>
+<textarea id="out"></textarea>
+</body>
+<script>
+var output=document.getElementById("out");
+function htmlSetup(){
+
+var classValue=nameValue="";
+var htmlString="<table id='table'>";
+
+for(var i=0;i<8;i++){
+
+	htmlString+="<tr>";
+
+	for(var j=0;j<8;j++){
+		cell=8*i+j;
+	
+		if((i+j)%2==0){
+			classValue="'white'";
+		htmlString+="<td><img class="+classValue+" src='' width='' height=''></img></td>";
+		}
+		else{
+			classValue="'black'";
+		htmlString+="<td><img class="+classValue+" src='' width='' height=''></img></td>";
+		}
+	}
+	htmlString+="</tr>";
+}
+htmlString+="</table>";
+
+output.textContent=htmlString;
+}
+htmlSetup()
+</script>
+</html>

@@ -1,0 +1,71 @@
+body{
+	margin: 15px auto;
+	font: constantia;
+	background-color: #337cff;
+
+}
+
+h1{
+	text-align: center;
+}
+/*
+#me{
+    color: white;
+    text-shadow: 6px 6px 12px #000000;
+	position: relative;
+	padding:4px;
+	border-radius:8px;
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%  {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:400px; top:0px;}
+    50%  {background-color:blue; left:400px; top:500px;}
+    75%  {background-color:green; left:-200px; top:500px;}
+    100% {background-color:red; left:-200px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%  {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:400px; top:0px;}
+    50%  {background-color:blue; left:400px; top:500px;}
+    75%  {background-color:green; left:-400px; top:500px;}
+    100% {background-color:red; left:-400px; top:0px;}
+}
+table{
+	margin: auto;
+	border-collapse: collapse;
+	background-color: #FFD700;
+	border: 10px outset #FFD700;
+	box-shadow: 14px 14px 6px #222222;
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 4s;
+}
+.white{
+	width: 30px;
+	height: 30px;
+	background-color:#fff;
+}
+.black{
+	width: 30px;
+	height: 30px;
+	background-color:#000;
+}
+#highlight{
+	background-color: #7f7;
+}
+img{
+
+	padding: 6px;
+}
+input{
+	margin-left:50px;
+}
